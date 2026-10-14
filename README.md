@@ -66,3 +66,17 @@ Actual insights will be documented after completing and validating the dashboard
 ## Project Status
 
 **Day 1:** Dataset setup, initial data preparation, and COVID-19 cases trend visualization.
+
+
+## ## Dataset Setup
+
+The original and cleaned CSV datasets are not included in this GitHub repository because of their large file sizes.
+
+### Download the Dataset
+
+1. Visit [Our World in Data — COVID-19 Data](https://ourworldindata.org/covid-cases).
+2. Download the required COVID-19 dataset.
+3. Save the CSV file in `Day1_Covid19_Global_Impact_Dashboard/Dataset/`.
+4. Run the analysis notebook to perform data preparation and generate cleaned data.
+
+The cleaned dataset is generated locally and is excluded from Git tracking.

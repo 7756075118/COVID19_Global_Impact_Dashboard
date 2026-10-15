@@ -80,3 +80,43 @@ The original and cleaned CSV datasets are not included in this GitHub repository
 4. Run the analysis notebook to perform data preparation and generate cleaned data.
 
 The cleaned dataset is generated locally and is excluded from Git tracking.
+
+### Day 2
+
+# COVID-19 Global Impact Dashboard — Day 2
+
+## 1. Project Objective
+
+To analyze global COVID-19 data and identify trends in reported cases, deaths, and vaccination coverage across countries and dates.
+
+## 2. Tools Used
+
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Jupyter Notebook
+- Power BI
+
+## 3. Day 2 Activities
+
+- Loaded and inspected the Our World in Data COVID-19 dataset.
+- Cleaned country and date fields and removed duplicate country-date records.
+- Handled missing values without treating all missing reports as zero.
+- Created seven-day rolling averages for new cases and deaths.
+- Calculated case fatality ratio, vaccination coverage, and approximate case doubling time.
+- Created visualizations for case trends, deaths, and country comparisons.
+- Exported the cleaned dataset for dashboard development.
+
+## 4. Deliverables
+
+- Cleaned CSV dataset
+- Jupyter Notebook containing analysis
+- Charts and visualizations
+- Initial insights for the executive summary
+
+## 5. Next Steps
+
+- Complete the interactive Power BI dashboard.
+- Validate key metrics and document assumptions.
+- Prepare three to five evidence-based insights.
+- Create a one-page executive summary PDF.

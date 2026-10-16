@@ -120,3 +120,54 @@ To analyze global COVID-19 data and identify trends in reported cases, deaths, a
 - Validate key metrics and document assumptions.
 - Prepare three to five evidence-based insights.
 - Create a one-page executive summary PDF.
+
+## Day 3 — Advanced COVID-19 Analysis
+
+### Objective
+Perform advanced analysis of COVID-19 data to identify case trends, mortality patterns, vaccination coverage, and differences between selected countries.
+
+### Tasks Completed
+- Loaded and validated the COVID-19 dataset using Python and Pandas.
+- Checked dataset dimensions, duplicate rows, missing values, and date ranges.
+- Converted date and numeric columns into appropriate data types.
+- Calculated 7-day rolling averages for new cases and new deaths.
+- Analyzed reported cases and deaths per million people.
+- Calculated the Case Fatality Rate (CFR).
+- Calculated vaccination coverage and full vaccination coverage as percentages of population.
+- Compared India, the United States, and Brazil using available data.
+- Prepared country-level summary metrics for further analysis.
+
+### Dataset Details
+- **Source:** Our World in Data — COVID-19 dataset
+- **Input file:** `owid-covid-data.csv`
+- **Dataset dimensions:** 395,311 rows and 72 columns before additional Day 3 calculations
+- **Date range:** January 1, 2020 – August 14, 2024
+
+### Key Findings
+1. **COVID-19 waves:** The 7-day rolling average helps identify increases and decreases in reported cases over time.
+2. **Country comparison:** The United States had approximately 305,763.91 reported cumulative cases per million in the displayed comparison.
+3. **Mortality:** The United States recorded approximately 3,527.05 reported deaths per million in the displayed comparison.
+4. **Vaccination rollout:** India's displayed record showed approximately 72.50% with at least one vaccine dose and 67.18% fully vaccinated.
+5. **Case Fatality Rate:** The displayed values were approximately 1.15% for the United States and 1.87% for Brazil.
+
+*Note: These findings are based on available reported records. Missing values and differences in reporting can affect comparisons. Historical peaks and changes should be verified using the relevant trend charts.*
+
+### Tools and Technologies
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Jupyter Notebook
+- Git and GitHub
+
+### Day 3 Deliverables
+- Advanced analysis notebook
+- Calculated COVID-19 metrics
+- Country comparison summary
+- Updated analysis CSV file
+- Visualizations of COVID-19 trends, where generated
+
+### Learning Outcomes
+- Learned to calculate rolling averages and epidemiological indicators.
+- Practiced handling missing values in real-world datasets.
+- Improved skills in time-series analysis and country-level comparisons.
+- Developed a foundation for improving the interactive Power BI dashboard.

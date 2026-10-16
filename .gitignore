@@ -5,3 +5,6 @@ venv/
 .env
 Day1_Covid19_Global_Impact_Dashboard/Dataset/owid-covid-data.csv
 Day1_Covid19_Global_Impact_Dashboard/cleaned_data/covid19_cleaned.csv
+
+Day3_Covid19_Global_Impact_Dashboard/cleaned_data/covid19_day3_analysis.csv
+Day3_Covid19_Global_Impact_Dashboard/cleaned_data/covid19_cleaned.csv

@@ -8,3 +8,8 @@ Day1_Covid19_Global_Impact_Dashboard/cleaned_data/covid19_cleaned.csv
 
 Day3_Covid19_Global_Impact_Dashboard/cleaned_data/covid19_day3_analysis.csv
 Day3_Covid19_Global_Impact_Dashboard/cleaned_data/covid19_cleaned.csv
+
+Day4_Covid19_Global_Impact_Dashboard/Dataset/*.csv
+Day4_Covid19_Global_Impact_Dashboard/cleaned_data/*.csv
+
+Add-Content .gitignore "Day4_Covid19_Global_Impact_Dashboard/Dataset/covid19_day3_analysis.csv"

@@ -171,3 +171,39 @@ Perform advanced analysis of COVID-19 data to identify case trends, mortality pa
 - Practiced handling missing values in real-world datasets.
 - Improved skills in time-series analysis and country-level comparisons.
 - Developed a foundation for improving the interactive Power BI dashboard.
+
+## Day 4 — COVID-19 Global Impact Dashboard
+
+### Objective
+Develop an interactive Power BI dashboard to analyze reported COVID-19 cases, deaths, and vaccination coverage across countries and dates.
+
+### Tasks
+- Loaded the Day 3 analysis dataset into Power BI Desktop.
+- Checked data types for date, country, cases, deaths, and vaccination columns.
+- Planned the COVID-19 Overview page with KPI cards, cases trends, deaths trends, and country comparisons.
+- Created the plan for a Vaccination Analysis page with vaccination trends and country comparisons.
+- Added country and date slicers to support interactive analysis.
+- Reviewed missing vaccination values and country-comparison limitations.
+- Prepared the Day 4 project report.
+
+### Dashboard Pages
+1. **COVID-19 Overview:** KPI cards, cases and deaths trends, and country comparison.
+2. **Vaccination Analysis:** Vaccination coverage trends, fully vaccinated trends, country comparison, and country/date filters.
+
+### Tools Used
+- Power BI Desktop
+- Python and Pandas
+- CSV dataset
+- Git and GitHub
+
+### Data Quality Notes
+- Missing vaccination values should remain blank rather than being replaced with zero.
+- Cumulative case and death totals should not be summed across daily records.
+- Country comparisons should use a common reference date where possible.
+- Reported trends do not establish cause and effect.
+
+### Deliverables
+- Power BI dashboard (`.pbix`)
+- Dashboard screenshots
+- Day 4 project report (PDF)
+- Updated README documentation

@@ -207,3 +207,57 @@ Develop an interactive Power BI dashboard to analyze reported COVID-19 cases, de
 - Dashboard screenshots
 - Day 4 project report (PDF)
 - Updated README documentation
+
+## Task 5 — COVID-19 Global Impact Dashboard (Final Analysis)
+Objective
+Analyze publicly available COVID-19 data to explore reported case and death trends, country-level rates per million, and vaccination coverage. Present the findings in an interactive Power BI dashboard.
+
+## Dataset
+- Source: Our World in Data COVID-19 dataset
+- File: owid-covid-data.csv
+- Observed dimensions: 395,311 rows × 72 columns before additional project calculations.
+- Observed date range: 2020-01-01 to 2024-08-14.
+
+## Tools
+Python, Pandas, NumPy, Matplotlib/Seaborn, Power BI Desktop, Git and GitHub.
+
+## Methodology
+1. Loaded and inspected the COVID-19 time-series dataset.
+2. Validated date/location fields and checked duplicate location/date records.
+3. Reviewed missing values, especially in vaccination fields.
+4. Prepared relevant case, death, population-normalized, and vaccination metrics where available.
+5. Created trend and country-comparison charts.
+6. Designed two Power BI report pages: Global Overview and Vaccination Analysis, with KPI cards, line/bar charts, and country/date/continent slicers where fields are available.
+7. Documented interpretation notes and data limitations.
+
+## Planned / Included Visuals
+- Global daily reported cases trend
+- Global daily reported deaths trend
+- Country comparison by reported cumulative cases per million
+- Vaccination coverage per 100 people
+- Total vaccinations per 100 people
+- Country and date filtering
+
+## Key Findings
+Add verified findings from the notebook and Power BI report before publishing:
+- Daily cases peak: [insert date and value from analysis]
+- Daily deaths peak: [insert date and value from analysis]
+- Country comparison: [insert location, value per million, and record date]
+- Vaccination coverage: [insert location, value, and record date]
+
+## Limitations
+- Reported cases and deaths are not a complete count of all infections or deaths.
+- Testing and reporting practices differ by country and over time.
+- Vaccination fields contain missing values; comparisons should use available records and show relevant dates.
+- Per-million rates support population-size comparisons but do not remove reporting differences.
+- Correlation or timing alone does not prove that vaccination caused a change in cases or deaths.
+
+## Deliverables
+- [ ] Cleaned dataset and documented assumptions
+- [ ] Four analysis charts
+- [ ] Interactive Power BI dashboard (Global Overview and Vaccination Analysis)
+- [ ] One-page executive summary PDF
+- [ ] Screenshots and verified findings added to this README
+
+## Repository / Data Note
+Large source and intermediate CSV files may exceed GitHub's file-size limit. Keep them locally or use an appropriate data-hosting solution; do not commit files larger than GitHub's supported limit.
